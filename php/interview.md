@@ -2,7 +2,7 @@
 
 >    部分题目收集自网络，里面可能会穿插一些MySQL与HTML相关问题。
 
-##1. echo(),print(),print_r()的区别？
+## 1. echo(),print(),print_r()的区别？
 
 **echo** 和 **print** 不是一个函数，是一个语言结构；  
 `print(string $arg)` 只有一个参数；  
@@ -14,7 +14,7 @@ $arr = array("key"=>"value");
 print_r($arr);
 ```
 
-##2. 语句include和require的区别是什么?
+## 2. 语句include和require的区别是什么?
 
 在失败的时候：  
 `include` 产生一个 `warning` ，而 `require` 直接产生错误中断；  
@@ -22,7 +22,7 @@ print_r($arr);
 `include` 在运行时载入；  
 `require_once` 和 `include_once` 可以避免重复包含同一文件。  
 
-##3. php中传值与传引用有啥区别?
+## 3. php中传值与传引用有啥区别?
 
 &表示传引用；  
 函数中参数传引用会将参数进行改变；  
@@ -37,7 +37,7 @@ multiply($num);
 echo $num;
 ```
 
-##4. 下面哪项没有将john添加到users数组中？
+## 4. 下面哪项没有将john添加到users数组中？
 
 ```
 (a) $users[] = 'john';
@@ -47,7 +47,7 @@ echo $num;
 ```
 答案为bd，php 里面无 `array_add` 函数，d项为语法错误的表达。
 
-##5. HTTP协议中几个状态码的含义。
+## 5. HTTP协议中几个状态码的含义。
 
 ```
 200 : 请求成功，请求的数据随之返回。
@@ -59,7 +59,7 @@ echo $num;
 500 : 服务器错误。一般服务器端程序执行错误。
 503 : 服务器临时维护或过载。这个状态时临时性的。
 ```
-##6. 写出一些php魔术方法。
+## 6. 写出一些php魔术方法。
 
 ```
 __construct() 实例化类时自动调用。
@@ -78,7 +78,7 @@ __set_state() 当使用var_export()函数时候调用。接受一个数组参数。
 __clone() 当使用clone复制一个对象时候调用。
 ```
 
-##7. MySQL存储引擎 MyISAM 和 InnoDB 的区别。
+## 7. MySQL存储引擎 MyISAM 和 InnoDB 的区别。
 
 ```
 a. MyISAM类型不支持事务处理等高级处理，而InnoDB类型支持.
@@ -91,7 +91,7 @@ g. LOAD TABLE FROM MASTER操作对InnoDB是不起作用的，解决方法是首先把InnoDB表改成M
 h. MyISAM支持表锁，InnoDB支持行锁。
 ```
 
-##8. 说出一些MySQL优化方法？
+## 8. 说出一些MySQL优化方法？
 
 ```
 a. 设计良好的数据库结构，允许部分数据冗余，尽量避免join查询，提高效率。
@@ -102,7 +102,7 @@ e。添加缓存机制，比如memcached，apc等。
 f. 不经常改动的页面，生成静态页面。
 g. 书写高效率的SQL。比如 SELECT * FROM TABEL 改为 SELECT field_1, field_2, field_3 FROM TABLE.
 ```
-##9. 下面$a的结果是：
+## 9. 下面$a的结果是：
 ```php
 <?php
 $a = in_array('01', array('1')) == var_dump('01' == 1);
@@ -113,7 +113,7 @@ B false
 
 答案为A
 
-##10. 说下php中empty()和isset()的区别。
+## 10. 说下php中empty()和isset()的区别。
 
 `isset` 用于检测变量是否被设置，使用 `isset()` 测试一个被设置成 NULL 的变量，将返回 `FALSE` 。  
 `empty` 如果 `var` 是非空或非零的值，则 `empty()` 返回 `FALSE`。换句话说，`""、0、"0"、NULL、FALSE、array()、var $var;` 以及没有任何属性的对象都将被认为是空的，如果 `var` 为空，则返回 `TRUE` 。

@@ -6,4 +6,4 @@
 
 面试题系列：
 
-[php面试题收集](/php/interview.md)
+[php面试题收集](/php/interview.md) [#1](/issues/1)
