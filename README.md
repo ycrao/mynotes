@@ -25,5 +25,5 @@
 
 ### Git 相关：
 
-[Git设置与使用帮助](git/git.md) [#2](https://github.com/ycrao/mynotes/issues/2)
-[直接拿来用！10段超有用的Git命令行代码](git/advanced-git-commands.md) [#3](https://github.com/ycrao/mynotes/issues/3)
+[Git设置与使用帮助](git/git.md) [#2](https://github.com/ycrao/mynotes/issues/2)  
+[直接拿来用！10段超有用的Git命令行代码](git/advanced-git-commands.md) [#3](https://github.com/ycrao/mynotes/issues/3)  
