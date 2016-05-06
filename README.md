@@ -9,7 +9,7 @@
 [php面试题收集](php/interview.md) [#1](https://github.com/ycrao/mynotes/issues/1)
 
 
-### Laravel 入门教程：  
+### Laravel 入门教程：
 
 本人去年自己写的 `Laravel` 系列教程，使用的4版，内容可能有些过时或错漏。博客连载地址为：http://douyasi.com/category/startlaravel/  
 
@@ -27,3 +27,8 @@
 
 [Git设置与使用帮助](git/git.md) [#2](https://github.com/ycrao/mynotes/issues/2)  
 [直接拿来用！10段超有用的Git命令行代码](git/advanced-git-commands.md) [#3](https://github.com/ycrao/mynotes/issues/3)  
+
+### MySQL 相关：
+
+[MySQL基础命令](mysql/basic.md)
+
