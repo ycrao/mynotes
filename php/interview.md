@@ -9,6 +9,7 @@
 `echo arg1,arg2` 可以输出多个参数，返回 `void` ；  
 `echo` 和 `print` 只能打印出string，不能打印出结构；  
 `print_r`能打印出结构。比如:
+
 ```php
 $arr = array("key"=>"value");
 print_r($arr);
@@ -102,6 +103,7 @@ e。添加缓存机制，比如memcached，apc等。
 f. 不经常改动的页面，生成静态页面。
 g. 书写高效率的SQL。比如 SELECT * FROM TABEL 改为 SELECT field_1, field_2, field_3 FROM TABLE.
 ```
+
 ## 9. 下面$a的结果是：
 ```php
 <?php

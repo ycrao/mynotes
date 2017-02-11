@@ -38,6 +38,7 @@ git help <verb>
 git <verb> --help
 man git-<verb>
 ```
+
 比如，要学习 `config` 命令可以怎么用，运行：
 
 ```bash
@@ -50,10 +51,11 @@ git help config
 **1. 创建新仓库**
 
 创建新文件夹，打开，然后执行：
- 
+
 ```bash
 git init
 ```
+
 以创建新的 git 仓库。
 
 **2. 检出仓库**
@@ -198,20 +200,22 @@ git reset --hard origin/master
 **10.在命令行中创建并提交Git仓库**
 
 ```bash
-mkdir writer.dev
-cd writer.dev
+mkdir example
+cd example
 git init
-echo "# writer.dev" >> README.md
+echo "# example" >> README.md
 git add README.md
 git commit -m "first commit"
-git remote add origin git@git.coding.net:rao/writer.dev.git
+git remote add origin git@github.com:ycrao/example.git
 git push -u origin master
 ```
-   
+
 **11. 在命令行提交已有项目**
 
 ```bash
 cd existing_git_repo
-git remote add origin git@git.coding.net:rao/writer.dev.git
+git remote add origin git@github.com:ycrao/existing_git_repo.git
 git push -u origin master
 ```
+
+注意：第10、11条示例中 `git@github.com:ycrao/example.git` 或 `git@github.com:ycrao/existing_git_repo.git` 是仓库 `SSH` 方式地址，一般源码托管服务商（如 `GitHub` 和 `Coding` ）会在仓库页面中告知你，请根据实际情况与操作自行替换。
