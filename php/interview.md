@@ -1,33 +1,33 @@
-# PHPÃæÊÔÌâ»ã×Ü
+# PHPé¢è¯•é¢˜æ±‡æ€»
 
->    ²¿·ÖÌâÄ¿ÊÕ¼¯×ÔÍøÂç£¬ÀïÃæ¿ÉÄÜ»á´©²åÒ»Ð©MySQLÓëHTMLÏà¹ØÎÊÌâ¡£
+>    éƒ¨åˆ†é¢˜ç›®æ”¶é›†è‡ªç½‘ç»œï¼Œé‡Œé¢å¯èƒ½ä¼šç©¿æ’ä¸€äº›MySQLä¸ŽHTMLç›¸å…³é—®é¢˜ã€‚
 
-## 1. echo(),print(),print_r()µÄÇø±ð£¿
+## 1. echo(),print(),print_r()çš„åŒºåˆ«ï¼Ÿ
 
-**echo** ºÍ **print** ²»ÊÇÒ»¸öº¯Êý£¬ÊÇÒ»¸öÓïÑÔ½á¹¹£»  
-`print(string $arg)` Ö»ÓÐÒ»¸ö²ÎÊý£»  
-`echo arg1,arg2` ¿ÉÒÔÊä³ö¶à¸ö²ÎÊý£¬·µ»Ø `void` £»  
-`echo` ºÍ `print` Ö»ÄÜ´òÓ¡³östring£¬²»ÄÜ´òÓ¡³ö½á¹¹£»  
-`print_r`ÄÜ´òÓ¡³ö½á¹¹¡£±ÈÈç:
+**echo** å’Œ **print** ä¸æ˜¯ä¸€ä¸ªå‡½æ•°ï¼Œæ˜¯ä¸€ä¸ªè¯­è¨€ç»“æž„ï¼›  
+`print(string $arg)` åªæœ‰ä¸€ä¸ªå‚æ•°ï¼›  
+`echo arg1,arg2` å¯ä»¥è¾“å‡ºå¤šä¸ªå‚æ•°ï¼Œè¿”å›ž `void` ï¼›  
+`echo` å’Œ `print` åªèƒ½æ‰“å°å‡ºstringï¼Œä¸èƒ½æ‰“å°å‡ºç»“æž„ï¼›  
+`print_r`èƒ½æ‰“å°å‡ºç»“æž„ã€‚æ¯”å¦‚:
 
 ```php
 $arr = array("key"=>"value");
 print_r($arr);
 ```
 
-## 2. Óï¾äincludeºÍrequireµÄÇø±ðÊÇÊ²Ã´?
+## 2. è¯­å¥includeå’Œrequireçš„åŒºåˆ«æ˜¯ä»€ä¹ˆ?
 
-ÔÚÊ§°ÜµÄÊ±ºò£º  
-`include` ²úÉúÒ»¸ö `warning` £¬¶ø `require` Ö±½Ó²úÉú´íÎóÖÐ¶Ï£»  
-`require` ÔÚÔËÐÐÇ°ÔØÈë£»  
-`include` ÔÚÔËÐÐÊ±ÔØÈë£»  
-`require_once` ºÍ `include_once` ¿ÉÒÔ±ÜÃâÖØ¸´°üº¬Í¬Ò»ÎÄ¼þ¡£  
+åœ¨å¤±è´¥çš„æ—¶å€™ï¼š  
+`include` äº§ç”Ÿä¸€ä¸ª `warning` ï¼Œè€Œ `require` ç›´æŽ¥äº§ç”Ÿé”™è¯¯ä¸­æ–­ï¼›  
+`require` åœ¨è¿è¡Œå‰è½½å…¥ï¼›  
+`include` åœ¨è¿è¡Œæ—¶è½½å…¥ï¼›  
+`require_once` å’Œ `include_once` å¯ä»¥é¿å…é‡å¤åŒ…å«åŒä¸€æ–‡ä»¶ã€‚  
 
-## 3. phpÖÐ´«ÖµÓë´«ÒýÓÃÓÐÉ¶Çø±ð?
+## 3. phpä¸­ä¼ å€¼ä¸Žä¼ å¼•ç”¨æœ‰å•¥åŒºåˆ«?
 
-&±íÊ¾´«ÒýÓÃ£»  
-º¯ÊýÖÐ²ÎÊý´«ÒýÓÃ»á½«²ÎÊý½øÐÐ¸Ä±ä£»  
-Ò»°ãÔÚÊä³ö²ÎÊýÓÐ¶à¸öµÄÊ±ºò¿ÉÒÔ¿¼ÂÇÊ¹ÓÃÒýÓÃ¡£  
+&è¡¨ç¤ºä¼ å¼•ç”¨ï¼›  
+å‡½æ•°ä¸­å‚æ•°ä¼ å¼•ç”¨ä¼šå°†å‚æ•°è¿›è¡Œæ”¹å˜ï¼›  
+ä¸€èˆ¬åœ¨è¾“å‡ºå‚æ•°æœ‰å¤šä¸ªçš„æ—¶å€™å¯ä»¥è€ƒè™‘ä½¿ç”¨å¼•ç”¨ã€‚  
 
 ```php
 $num = 10
@@ -38,7 +38,7 @@ multiply($num);
 echo $num;
 ```
 
-## 4. ÏÂÃæÄÄÏîÃ»ÓÐ½«johnÌí¼Óµ½usersÊý×éÖÐ£¿
+## 4. ä¸‹é¢å“ªé¡¹æ²¡æœ‰å°†johnæ·»åŠ åˆ°usersæ•°ç»„ä¸­ï¼Ÿ
 
 ```
 (a) $users[] = 'john';
@@ -46,65 +46,65 @@ echo $num;
 (c) array_push($users,'john');
 (d) $users ||= 'john';
 ```
-´ð°¸Îªbd£¬php ÀïÃæÎÞ `array_add` º¯Êý£¬dÏîÎªÓï·¨´íÎóµÄ±í´ï¡£
+ç­”æ¡ˆä¸ºbdï¼Œphp é‡Œé¢æ—  `array_add` å‡½æ•°ï¼Œdé¡¹ä¸ºè¯­æ³•é”™è¯¯çš„è¡¨è¾¾ã€‚
 
-## 5. HTTPÐ­ÒéÖÐ¼¸¸ö×´Ì¬ÂëµÄº¬Òå¡£
-
-```
-200 : ÇëÇó³É¹¦£¬ÇëÇóµÄÊý¾ÝËæÖ®·µ»Ø¡£
-301 : ÓÀ¾ÃÐÔÖØ¶¨Ïò¡£
-302 : ÔÝÊ±ÐÐÖØ¶¨Ïò¡£
-401 : µ±Ç°ÇëÇóÐèÒªÓÃ»§ÑéÖ¤¡£
-403 : ·þÎñÆ÷¾Ü¾øÖ´ÐÐÇëÇó£¬¼´Ã»ÓÐÈ¨ÏÞ¡£
-404 : ÇëÇóÊ§°Ü£¬ÇëÇóµÄÊý¾ÝÔÚ·þÎñÆ÷ÉÏÎ´·¢ÏÖ¡£
-500 : ·þÎñÆ÷´íÎó¡£Ò»°ã·þÎñÆ÷¶Ë³ÌÐòÖ´ÐÐ´íÎó¡£
-503 : ·þÎñÆ÷ÁÙÊ±Î¬»¤»ò¹ýÔØ¡£Õâ¸ö×´Ì¬Ê±ÁÙÊ±ÐÔµÄ¡£
-```
-## 6. Ð´³öÒ»Ð©phpÄ§Êõ·½·¨¡£
+## 5. HTTPåè®®ä¸­å‡ ä¸ªçŠ¶æ€ç çš„å«ä¹‰ã€‚
 
 ```
-__construct() ÊµÀý»¯ÀàÊ±×Ô¶¯µ÷ÓÃ¡£
-__destruct() Àà¶ÔÏóÊ¹ÓÃ½áÊøÊ±×Ô¶¯µ÷ÓÃ¡£
-__set() ÔÚ¸øÎ´¶¨ÒåµÄÊôÐÔ¸³ÖµµÄÊ±ºòµ÷ÓÃ¡£
-__get() µ÷ÓÃÎ´¶¨ÒåµÄÊôÐÔÊ±ºòµ÷ÓÃ¡£
-__isset() Ê¹ÓÃisset()»òempty()º¯ÊýÊ±ºò»áµ÷ÓÃ¡£
-__unset() Ê¹ÓÃunset()Ê±ºò»áµ÷ÓÃ¡£
-__sleep() Ê¹ÓÃserializeÐòÁÐ»¯Ê±ºòµ÷ÓÃ¡£
-__wakeup() Ê¹ÓÃunserialize·´ÐòÁÐ»¯µÄÊ±ºòµ÷ÓÃ¡£
-__call() µ÷ÓÃÒ»¸ö²»´æÔÚµÄ·½·¨µÄÊ±ºòµ÷ÓÃ¡£
-__callStatic()µ÷ÓÃÒ»¸ö²»´æÔÚµÄ¾²Ì¬·½·¨ÊÇµ÷ÓÃ¡£
-__toString() °Ñ¶ÔÏó×ª»»³É×Ö·û´®µÄÊ±ºò»áµ÷ÓÃ¡£±ÈÈç echo¡£
-__invoke() µ±³¢ÊÔ°Ñ¶ÔÏóµ±·½·¨µ÷ÓÃÊ±µ÷ÓÃ¡£
-__set_state() µ±Ê¹ÓÃvar_export()º¯ÊýÊ±ºòµ÷ÓÃ¡£½ÓÊÜÒ»¸öÊý×é²ÎÊý¡£
-__clone() µ±Ê¹ÓÃclone¸´ÖÆÒ»¸ö¶ÔÏóÊ±ºòµ÷ÓÃ¡£
+200 : è¯·æ±‚æˆåŠŸï¼Œè¯·æ±‚çš„æ•°æ®éšä¹‹è¿”å›žã€‚
+301 : æ°¸ä¹…æ€§é‡å®šå‘ã€‚
+302 : æš‚æ—¶è¡Œé‡å®šå‘ã€‚
+401 : å½“å‰è¯·æ±‚éœ€è¦ç”¨æˆ·éªŒè¯ã€‚
+403 : æœåŠ¡å™¨æ‹’ç»æ‰§è¡Œè¯·æ±‚ï¼Œå³æ²¡æœ‰æƒé™ã€‚
+404 : è¯·æ±‚å¤±è´¥ï¼Œè¯·æ±‚çš„æ•°æ®åœ¨æœåŠ¡å™¨ä¸Šæœªå‘çŽ°ã€‚
+500 : æœåŠ¡å™¨é”™è¯¯ã€‚ä¸€èˆ¬æœåŠ¡å™¨ç«¯ç¨‹åºæ‰§è¡Œé”™è¯¯ã€‚
+503 : æœåŠ¡å™¨ä¸´æ—¶ç»´æŠ¤æˆ–è¿‡è½½ã€‚è¿™ä¸ªçŠ¶æ€æ—¶ä¸´æ—¶æ€§çš„ã€‚
 ```
-
-## 7. MySQL´æ´¢ÒýÇæ MyISAM ºÍ InnoDB µÄÇø±ð¡£
+## 6. å†™å‡ºä¸€äº›phpé­”æœ¯æ–¹æ³•ã€‚
 
 ```
-a. MyISAMÀàÐÍ²»Ö§³ÖÊÂÎñ´¦ÀíµÈ¸ß¼¶´¦Àí£¬¶øInnoDBÀàÐÍÖ§³Ö.
-b. MyISAMÀàÐÍµÄ±íÇ¿µ÷µÄÊÇÐÔÄÜ£¬ÆäÖ´ÐÐÊý¶È±ÈInnoDBÀàÐÍ¸ü¿ì.
-c. InnoDB²»Ö§³ÖFULLTEXTÀàÐÍµÄË÷Òý.
-d. InnoDBÖÐ²»±£´æ±íµÄ¾ßÌåÐÐÊý£¬Ò²¾ÍÊÇËµ£¬Ö´ÐÐselect count(*) from tableÊ±£¬InnoDBÒªÉ¨ÃèÒ»±éÕû¸ö±íÀ´¼ÆËãÓÐ¶àÉÙÐÐ£¬µ«ÊÇMyISAMÖ»Òª¼òµ¥µÄ¶Á³ö±£´æºÃµÄÐÐÊý¼´¿É.
-e. ¶ÔÓÚAUTO_INCREMENTÀàÐÍµÄ×Ö¶Î£¬InnoDBÖÐ±ØÐë°üº¬Ö»ÓÐ¸Ã×Ö¶ÎµÄË÷Òý£¬µ«ÊÇÔÚMyISAM±íÖÐ£¬¿ÉÒÔºÍÆäËû×Ö¶ÎÒ»Æð½¨Á¢ÁªºÏË÷Òý¡£
-f. DELETE FROM tableÊ±£¬InnoDB²»»áÖØÐÂ½¨Á¢±í£¬¶øÊÇÒ»ÐÐÒ»ÐÐµÄÉ¾³ý¡£
-g. LOAD TABLE FROM MASTER²Ù×÷¶ÔInnoDBÊÇ²»Æð×÷ÓÃµÄ£¬½â¾ö·½·¨ÊÇÊ×ÏÈ°ÑInnoDB±í¸Ä³ÉMyISAM±í£¬µ¼ÈëÊý¾ÝºóÔÙ¸Ä³ÉInnoDB±í£¬µ«ÊÇ¶ÔÓÚÊ¹ÓÃµÄ¶îÍâµÄInnoDBÌØÐÔ(ÀýÈçÍâ¼ü)µÄ±í²»ÊÊÓÃ.
-h. MyISAMÖ§³Ö±íËø£¬InnoDBÖ§³ÖÐÐËø¡£
+__construct() å®žä¾‹åŒ–ç±»æ—¶è‡ªåŠ¨è°ƒç”¨ã€‚
+__destruct() ç±»å¯¹è±¡ä½¿ç”¨ç»“æŸæ—¶è‡ªåŠ¨è°ƒç”¨ã€‚
+__set() åœ¨ç»™æœªå®šä¹‰çš„å±žæ€§èµ‹å€¼çš„æ—¶å€™è°ƒç”¨ã€‚
+__get() è°ƒç”¨æœªå®šä¹‰çš„å±žæ€§æ—¶å€™è°ƒç”¨ã€‚
+__isset() ä½¿ç”¨isset()æˆ–empty()å‡½æ•°æ—¶å€™ä¼šè°ƒç”¨ã€‚
+__unset() ä½¿ç”¨unset()æ—¶å€™ä¼šè°ƒç”¨ã€‚
+__sleep() ä½¿ç”¨serializeåºåˆ—åŒ–æ—¶å€™è°ƒç”¨ã€‚
+__wakeup() ä½¿ç”¨unserializeååºåˆ—åŒ–çš„æ—¶å€™è°ƒç”¨ã€‚
+__call() è°ƒç”¨ä¸€ä¸ªä¸å­˜åœ¨çš„æ–¹æ³•çš„æ—¶å€™è°ƒç”¨ã€‚
+__callStatic()è°ƒç”¨ä¸€ä¸ªä¸å­˜åœ¨çš„é™æ€æ–¹æ³•æ˜¯è°ƒç”¨ã€‚
+__toString() æŠŠå¯¹è±¡è½¬æ¢æˆå­—ç¬¦ä¸²çš„æ—¶å€™ä¼šè°ƒç”¨ã€‚æ¯”å¦‚ echoã€‚
+__invoke() å½“å°è¯•æŠŠå¯¹è±¡å½“æ–¹æ³•è°ƒç”¨æ—¶è°ƒç”¨ã€‚
+__set_state() å½“ä½¿ç”¨var_export()å‡½æ•°æ—¶å€™è°ƒç”¨ã€‚æŽ¥å—ä¸€ä¸ªæ•°ç»„å‚æ•°ã€‚
+__clone() å½“ä½¿ç”¨cloneå¤åˆ¶ä¸€ä¸ªå¯¹è±¡æ—¶å€™è°ƒç”¨ã€‚
 ```
 
-## 8. Ëµ³öÒ»Ð©MySQLÓÅ»¯·½·¨£¿
+## 7. MySQLå­˜å‚¨å¼•æ“Ž MyISAM å’Œ InnoDB çš„åŒºåˆ«ã€‚
 
 ```
-a. Éè¼ÆÁ¼ºÃµÄÊý¾Ý¿â½á¹¹£¬ÔÊÐí²¿·ÖÊý¾ÝÈßÓà£¬¾¡Á¿±ÜÃâjoin²éÑ¯£¬Ìá¸ßÐ§ÂÊ¡£
-b. Ñ¡ÔñºÏÊÊµÄ±í×Ö¶ÎÊý¾ÝÀàÐÍºÍ´æ´¢ÒýÇæ£¬ÊÊµ±µÄÌí¼ÓË÷Òý¡£
-c. mysql¿âÖ÷´Ó¶ÁÐ´·ÖÀë¡£
-d. ÕÒ¹æÂÉ·Ö±í£¬¼õÉÙµ¥±íÖÐµÄÊý¾ÝÁ¿Ìá¸ß²éÑ¯ËÙ¶È¡£
-e¡£Ìí¼Ó»º´æ»úÖÆ£¬±ÈÈçmemcached£¬apcµÈ¡£
-f. ²»¾­³£¸Ä¶¯µÄÒ³Ãæ£¬Éú³É¾²Ì¬Ò³Ãæ¡£
-g. ÊéÐ´¸ßÐ§ÂÊµÄSQL¡£±ÈÈç SELECT * FROM TABEL ¸ÄÎª SELECT field_1, field_2, field_3 FROM TABLE.
+a. MyISAMç±»åž‹ä¸æ”¯æŒäº‹åŠ¡å¤„ç†ç­‰é«˜çº§å¤„ç†ï¼Œè€ŒInnoDBç±»åž‹æ”¯æŒ.
+b. MyISAMç±»åž‹çš„è¡¨å¼ºè°ƒçš„æ˜¯æ€§èƒ½ï¼Œå…¶æ‰§è¡Œæ•°åº¦æ¯”InnoDBç±»åž‹æ›´å¿«.
+c. InnoDBä¸æ”¯æŒFULLTEXTç±»åž‹çš„ç´¢å¼•.
+d. InnoDBä¸­ä¸ä¿å­˜è¡¨çš„å…·ä½“è¡Œæ•°ï¼Œä¹Ÿå°±æ˜¯è¯´ï¼Œæ‰§è¡Œselect count(*) from tableæ—¶ï¼ŒInnoDBè¦æ‰«æä¸€éæ•´ä¸ªè¡¨æ¥è®¡ç®—æœ‰å¤šå°‘è¡Œï¼Œä½†æ˜¯MyISAMåªè¦ç®€å•çš„è¯»å‡ºä¿å­˜å¥½çš„è¡Œæ•°å³å¯.
+e. å¯¹äºŽAUTO_INCREMENTç±»åž‹çš„å­—æ®µï¼ŒInnoDBä¸­å¿…é¡»åŒ…å«åªæœ‰è¯¥å­—æ®µçš„ç´¢å¼•ï¼Œä½†æ˜¯åœ¨MyISAMè¡¨ä¸­ï¼Œå¯ä»¥å’Œå…¶ä»–å­—æ®µä¸€èµ·å»ºç«‹è”åˆç´¢å¼•ã€‚
+f. DELETE FROM tableæ—¶ï¼ŒInnoDBä¸ä¼šé‡æ–°å»ºç«‹è¡¨ï¼Œè€Œæ˜¯ä¸€è¡Œä¸€è¡Œçš„åˆ é™¤ã€‚
+g. LOAD TABLE FROM MASTERæ“ä½œå¯¹InnoDBæ˜¯ä¸èµ·ä½œç”¨çš„ï¼Œè§£å†³æ–¹æ³•æ˜¯é¦–å…ˆæŠŠInnoDBè¡¨æ”¹æˆMyISAMè¡¨ï¼Œå¯¼å…¥æ•°æ®åŽå†æ”¹æˆInnoDBè¡¨ï¼Œä½†æ˜¯å¯¹äºŽä½¿ç”¨çš„é¢å¤–çš„InnoDBç‰¹æ€§(ä¾‹å¦‚å¤–é”®)çš„è¡¨ä¸é€‚ç”¨.
+h. MyISAMæ”¯æŒè¡¨é”ï¼ŒInnoDBæ”¯æŒè¡Œé”ã€‚
 ```
 
-## 9. ÏÂÃæ$aµÄ½á¹ûÊÇ£º
+## 8. è¯´å‡ºä¸€äº›MySQLä¼˜åŒ–æ–¹æ³•ï¼Ÿ
+
+```
+a. è®¾è®¡è‰¯å¥½çš„æ•°æ®åº“ç»“æž„ï¼Œå…è®¸éƒ¨åˆ†æ•°æ®å†—ä½™ï¼Œå°½é‡é¿å…joinæŸ¥è¯¢ï¼Œæé«˜æ•ˆçŽ‡ã€‚
+b. é€‰æ‹©åˆé€‚çš„è¡¨å­—æ®µæ•°æ®ç±»åž‹å’Œå­˜å‚¨å¼•æ“Žï¼Œé€‚å½“çš„æ·»åŠ ç´¢å¼•ã€‚
+c. mysqlåº“ä¸»ä»Žè¯»å†™åˆ†ç¦»ã€‚
+d. æ‰¾è§„å¾‹åˆ†è¡¨ï¼Œå‡å°‘å•è¡¨ä¸­çš„æ•°æ®é‡æé«˜æŸ¥è¯¢é€Ÿåº¦ã€‚
+e. æ·»åŠ ç¼“å­˜æœºåˆ¶ï¼Œæ¯”å¦‚memcachedï¼Œapcç­‰ã€‚
+f. ä¸ç»å¸¸æ”¹åŠ¨çš„é¡µé¢ï¼Œç”Ÿæˆé™æ€é¡µé¢ã€‚
+g. ä¹¦å†™é«˜æ•ˆçŽ‡çš„SQLã€‚æ¯”å¦‚ SELECT * FROM TABEL æ”¹ä¸º SELECT field_1, field_2, field_3 FROM TABLE.
+```
+
+## 9. ä¸‹é¢$açš„ç»“æžœæ˜¯ï¼š
 ```php
 <?php
 $a = in_array('01', array('1')) == var_dump('01' == 1);
@@ -113,19 +113,19 @@ $a = in_array('01', array('1')) == var_dump('01' == 1);
 A true   
 B false  
 
-´ð°¸ÎªA
+ç­”æ¡ˆä¸ºA
 
-## 10. ËµÏÂphpÖÐempty()ºÍisset()µÄÇø±ð¡£
+## 10. è¯´ä¸‹phpä¸­empty()å’Œisset()çš„åŒºåˆ«ã€‚
 
-`isset` ÓÃÓÚ¼ì²â±äÁ¿ÊÇ·ñ±»ÉèÖÃ£¬Ê¹ÓÃ `isset()` ²âÊÔÒ»¸ö±»ÉèÖÃ³É NULL µÄ±äÁ¿£¬½«·µ»Ø `FALSE` ¡£  
-`empty` Èç¹û `var` ÊÇ·Ç¿Õ»ò·ÇÁãµÄÖµ£¬Ôò `empty()` ·µ»Ø `FALSE`¡£»»¾ä»°Ëµ£¬`""¡¢0¡¢"0"¡¢NULL¡¢FALSE¡¢array()¡¢var $var;` ÒÔ¼°Ã»ÓÐÈÎºÎÊôÐÔµÄ¶ÔÏó¶¼½«±»ÈÏÎªÊÇ¿ÕµÄ£¬Èç¹û `var` Îª¿Õ£¬Ôò·µ»Ø `TRUE` ¡£
+`isset` ç”¨äºŽæ£€æµ‹å˜é‡æ˜¯å¦è¢«è®¾ç½®ï¼Œä½¿ç”¨ `isset()` æµ‹è¯•ä¸€ä¸ªè¢«è®¾ç½®æˆ NULL çš„å˜é‡ï¼Œå°†è¿”å›ž `FALSE` ã€‚  
+`empty` å¦‚æžœ `var` æ˜¯éžç©ºæˆ–éžé›¶çš„å€¼ï¼Œåˆ™ `empty()` è¿”å›ž `FALSE`ã€‚æ¢å¥è¯è¯´ï¼Œ`""ã€0ã€"0"ã€NULLã€FALSEã€array()ã€var $var;` ä»¥åŠæ²¡æœ‰ä»»ä½•å±žæ€§çš„å¯¹è±¡éƒ½å°†è¢«è®¤ä¸ºæ˜¯ç©ºçš„ï¼Œå¦‚æžœ `var` ä¸ºç©ºï¼Œåˆ™è¿”å›ž `TRUE` ã€‚
 
-Èç¹û±äÁ¿Îª `0` £¬Ôò`empty()`»á·µ»Ø`TRUE`£¬`isset()`»á·µ»Ø`TRUE`£»  
-Èç¹û±äÁ¿Îª¿Õ×Ö·û´®£¬Ôò`empty()`»á·µ»ØTRUE£¬`isset()`»á·µ»Ø`TRUE`£»  
-Èç¹û±äÁ¿Î´¶¨Òå£¬Ôò`empty()`»á·µ»Ø`TRUE`£¬`isset()`»á·µ»Ø`FLASE`¡£
+å¦‚æžœå˜é‡ä¸º `0` ï¼Œåˆ™`empty()`ä¼šè¿”å›ž`TRUE`ï¼Œ`isset()`ä¼šè¿”å›ž`TRUE`ï¼›  
+å¦‚æžœå˜é‡ä¸ºç©ºå­—ç¬¦ä¸²ï¼Œåˆ™`empty()`ä¼šè¿”å›žTRUEï¼Œ`isset()`ä¼šè¿”å›ž`TRUE`ï¼›  
+å¦‚æžœå˜é‡æœªå®šä¹‰ï¼Œåˆ™`empty()`ä¼šè¿”å›ž`TRUE`ï¼Œ`isset()`ä¼šè¿”å›ž`FLASE`ã€‚
    
-×¢Òâ£º`isset()` Ö»ÄÜÓÃÓÚ±äÁ¿£¬ÒòÎª´«µÝÈÎºÎÆäËü²ÎÊý¶¼½«Ôì³É½âÎö´íÎó¡£ÈôÏë¼ì²â³£Á¿ÊÇ·ñÒÑÉèÖÃ£¬¿ÉÊ¹ÓÃ `defined()` º¯Êý¡£
-µ±Òª ÅÐ¶ÏÒ»¸ö±äÁ¿ÊÇ·ñÒÑ¾­ÉùÃ÷µÄÊ±ºò ¿ÉÒÔÊ¹ÓÃ `isset` º¯Êý£»  
-µ±Òª ÅÐ¶ÏÒ»¸ö±äÁ¿ÊÇ·ñÒÑ¾­¸³ÓèÊý¾ÝÇÒ²»Îª¿Õ ¿ÉÒÔÓÃ `empty `º¯Êý£»  
-µ±Òª ÅÐ¶Ï Ò»¸ö±äÁ¿ ´æÔÚÇÒ²»Îª¿Õ ÏÈ `isset` º¯Êý ÔÙÓÃ `empty` º¯Êý£»  
+æ³¨æ„ï¼š`isset()` åªèƒ½ç”¨äºŽå˜é‡ï¼Œå› ä¸ºä¼ é€’ä»»ä½•å…¶å®ƒå‚æ•°éƒ½å°†é€ æˆè§£æžé”™è¯¯ã€‚è‹¥æƒ³æ£€æµ‹å¸¸é‡æ˜¯å¦å·²è®¾ç½®ï¼Œå¯ä½¿ç”¨ `defined()` å‡½æ•°ã€‚
+å½“è¦ åˆ¤æ–­ä¸€ä¸ªå˜é‡æ˜¯å¦å·²ç»å£°æ˜Žçš„æ—¶å€™ å¯ä»¥ä½¿ç”¨ `isset` å‡½æ•°ï¼›  
+å½“è¦ åˆ¤æ–­ä¸€ä¸ªå˜é‡æ˜¯å¦å·²ç»èµ‹äºˆæ•°æ®ä¸”ä¸ä¸ºç©º å¯ä»¥ç”¨ `empty `å‡½æ•°ï¼›  
+å½“è¦ åˆ¤æ–­ ä¸€ä¸ªå˜é‡ å­˜åœ¨ä¸”ä¸ä¸ºç©º å…ˆ `isset` å‡½æ•° å†ç”¨ `empty` å‡½æ•°ï¼›  
 
