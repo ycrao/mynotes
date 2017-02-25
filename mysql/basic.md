@@ -1,3 +1,6 @@
+# MySQL基础命令
+
+
 >    本文来源于网络，可能存在错漏之处，仅供参考。
 
 ### 1. 连接MySQL： `mysql -h host_address -u user_name -p user_password`
@@ -30,9 +33,6 @@ grant all PRIVILEGES on *.* to 'test'@'10.22.225.18' identified by '123';
 >    注意：  
 真正使用的时候不会用 `grant all PRIVILEGES on *.*` ，而是根据实际需要设定相关的权限。
 比如 `grant select,insert,delete,update on test.* to 'test'@'localhost' identified by '123';`
-
-
-<!--more-->
 
 
 ### 4. 创建数据库： `create database db_name`
