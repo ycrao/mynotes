@@ -6,8 +6,8 @@
 
 ### 面试题系列：
 
-[php面试题汇总](php/interview.md) [#1](https://github.com/ycrao/mynotes/issues/1)  
-[php面试题汇总二](php/interview_2.md) [#4](https://github.com/ycrao/mynotes/issues/4)  
+[PHP面试题汇总](php/interview.md) [#1](https://github.com/ycrao/mynotes/issues/1)  
+[PHP面试题汇总二](php/interview_2.md) [#4](https://github.com/ycrao/mynotes/issues/4)  
 
 ### Laravel 入门教程：
 
