@@ -113,7 +113,7 @@ $a = in_array('01', array('1')) == var_dump('01' == 1);
 A true   
 B false  
 
-答案为A
+答案为B
 
 ## 10. 说下php中empty()和isset()的区别。
 
