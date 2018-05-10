@@ -68,7 +68,7 @@ mysql> SELECT COUNT(*) FROM mytable;   # selects from db2.mytable
 
 MySQL中 `SELECT` 命令类似于其他编程语言里的 `print` 或者 `write`，你可以用它来显示一个字符串、数字、数学表达式的结果等等。如何使用 `MySQL` 中 `SELECT` 命令的特殊功能？
 
-①显示MYSQL的版本
+① 显示MYSQL的版本
 
 ```mysql
 mysql> select version(); 
@@ -92,7 +92,7 @@ mysql> select now();
 1 row in set (0.04 sec) 
 ```
 
-③显示年月日
+③ 显示年月日
 
 ```mysql
 SELECT DAYOFMONTH(CURRENT_DATE); 
@@ -120,7 +120,7 @@ SELECT YEAR(CURRENT_DATE);
 1 row in set (0.00 sec) 
 ```
 
-④显示字符串
+④ 显示字符串
 
 ```mysql
 mysql> SELECT "welecome to my blog!"; 
@@ -132,7 +132,7 @@ mysql> SELECT "welecome to my blog!";
 1 row in set (0.00 sec) 
 ```
 
-⑤当计算器用
+⑤ 当计算器用
 
 ```mysql
 select ((4 * 4) / 10 ) + 25; 
@@ -144,7 +144,7 @@ select ((4 * 4) / 10 ) + 25;
 1 row in set (0.00 sec) 
 ```
 
-⑥串接字符串
+⑥ 串接字符串
 
 ```mysql
 select CONCAT(f_name, " ", l_name) 
@@ -180,10 +180,13 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 >    使用MySQL数据库desc 表名时，我们看到Key那一栏，可能会有4种值，即 `' '` ， `'PRI'` ， `'UNI'` ， `'MUL'` 。
 
-①如果 `Key` 是空的, 那么该列值的可以重复, 表示该列没有索引, 或者是一个非唯一的复合索引的非前导列；
-②如果 `Key` 是 `PRI` ,  那么该列是主键的组成部分；
-③如果 `Key` 是 `UNI` ,  那么该列是一个唯一值索引的第一列(前导列)，并别不能含有空值(`NULL`)；
-④如果 `Key` 是 `MUL` ,  那么该列的值可以重复, 该列是一个非唯一索引的前导列(第一列)或者是一个唯一性索引的组成部分但是可以含有空值 `NULL`。
+① 如果 `Key` 是空的, 那么该列值的可以重复, 表示该列没有索引, 或者是一个非唯一的复合索引的非前导列；
+
+② 如果 `Key` 是 `PRI` ,  那么该列是主键的组成部分；
+
+③ 如果 `Key` 是 `UNI` ,  那么该列是一个唯一值索引的第一列(前导列)，并别不能含有空值(`NULL`)；
+
+④ 如果 `Key` 是 `MUL` ,  那么该列的值可以重复, 该列是一个非唯一索引的前导列(第一列)或者是一个唯一性索引的组成部分但是可以含有空值 `NULL`。
 如果对于一个列的定义，同时满足上述4种情况的多种，比如一个列既是 `PRI` ，又是`UNI` ，那么 `desc table_name` 的时候，显示的`Key` 值按照优先级来显示 `PRI->UNI->MUL` 。那么此时，显示 `PRI` 。
 一个唯一性索引列可以显示为 `PRI` ，并且该列不能含有空值，同时该表没有主键。
 一个唯一性索引列可以显示为 `MUL` ，如果多列构成了一个唯一性复合索引，因为虽然索引的多列组合是唯一的，比如 `ID+NAME` 是唯一的，但是没一个单独的列依然可以有重复的值，只要 `ID+NAME` 是唯一的即可。
@@ -201,12 +204,12 @@ INSERT INTO user (`uid`, `user_name`, `user_password`, `user_email`) VALUES (1, 
 
 ### 13. 查询表数据：`select field_1_name [,... field_n_name ]  from table_name where sql_expression`
 
-①查询所有行：
+① 查询所有行：
 
 查看表 `user` 中所有数据
 `select * from user;`
 
-②查询前几行数据：
+② 查询前几行数据：
 
 查看表 user 中前2行数据
 `select * from user order by id limit 0,2;`
@@ -225,11 +228,11 @@ INSERT INTO user (`uid`, `user_name`, `user_password`, `user_email`) VALUES (1, 
 update user set user_name='Mary' where id=1;
 ```
 
-①单表的MySQL UPDATE语句：
+① 单表的MySQL UPDATE语句：
 
 `UPDATE [LOW_PRIORITY] [IGNORE] tbl_name SET col_name1=expr1 [, col_name2=expr2 ...] [WHERE where_definition] [ORDER BY ...] [LIMIT row_count]`
 
-②多表的UPDATE语句：
+② 多表的UPDATE语句：
 
 `UPDATE [LOW_PRIORITY] [IGNORE] table_references SET col_name1=expr1 [, col_name2=expr2 ...] [WHERE where_definition]`
 
@@ -268,13 +271,16 @@ update user set user_name='Mary' where id=1;
 
 ### 18.备份数据库：
 
-①导出整个数据库，导出文件默认是存在mysql\bin目录下
+① 导出整个数据库，导出文件默认是存在mysql\bin目录下
     `mysqldump -u user_name -p user_password db_name > new_db_name.sql`
-②导出一个表
+
+② 导出一个表
     `mysqldump -u user_name -p user_password database_name table_name > outfile_name.sql`
-③导出一个数据库结构
+
+③ 导出一个数据库结构
     `mysqldump -u user_name -puser_password -d -add-drop-table database_name > outfile_name.sql`
     `-d` 没有数据 `-add-drop-table` 在每个 `create` 语句之前增加一个 `drop table`
+
 ④带语言参数导出
     `mysqldump -u user_name -p user_password -default-character-set=latin1 -set-charset=gbk -skip-opt database_name > outfile_name.sql`
 
@@ -299,9 +305,9 @@ insert into teacher values(”,’jack’,'大连二中’,'1975-12-23′);
 
 如果你在 `mysql` 提示符键入上面的命令也可以，但不方便调试。
 
-①你可以将以上命令原样写入一个文本文件中，假设为 `school.sql` ，然后复制到 `c:\` 下，并在 `DOS` 状态进入目录 `mysql\bin` ，然后键入以下命令：
+① 你可以将以上命令原样写入一个文本文件中，假设为 `school.sql` ，然后复制到 `c:\` 下，并在 `DOS` 状态进入目录 `mysql\bin` ，然后键入以下命令：
 `mysql -u user_name -p user_password < c:\school.sql`
 
 如果成功，空出一行无任何显示；如有错误，会有提示。（以上命令已经调试，你只要将//的注释去掉即可使用）。
 
-②或者进入命令行后使用 `mysql> source c:\school.sql; ` 也可以将 `school.sql` 文件导入数据库中。
+② 或者进入命令行后使用 `mysql> source c:\school.sql; ` 也可以将 `school.sql` 文件导入数据库中。
