@@ -31,3 +31,7 @@
 
 [MySQL基础命令](mysql/basic.md)
 
+### Rust 相关：
+
+Rust 学习笔记及示例代码: [Learning Rust](https://github.com/ycrao/learning_rust) 。
+
