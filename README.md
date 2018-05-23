@@ -35,3 +35,6 @@
 
 Rust 学习笔记及示例代码: [Learning Rust](https://github.com/ycrao/learning_rust) 。
 
+### Bash 相关：
+
+本人正在翻译的 [Bash 中文指南](https://github.com/ycrao/bash-guide) ，不错的 `linux bash` 命令入门材料。
