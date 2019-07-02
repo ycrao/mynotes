@@ -1,12 +1,12 @@
 <center><h1>米赢文化PHP面试题</h1></center>
 
-1. （简答题）`Redis` 能存储哪些结构的数据？
+1. （简答题）`Redis` 能存储哪些结构的数据，说出您所熟知结构的应用场景？
 <br />
 <br />
 <br />
 <br />
 
-2. （简答题）设计模式了解哪些？
+2. （简答题）什么是单例模式主要解决什么问题？
 <br />
 <br />
 <br />
@@ -36,5 +36,5 @@
 <br />
 <br />
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjEyNTcyNywtOTMzOTc1MTFdfQ==
+eyJoaXN0b3J5IjpbLTU5ODQ5OTc0MSwtOTMzOTc1MTFdfQ==
 -->
