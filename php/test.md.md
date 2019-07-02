@@ -18,15 +18,23 @@
 <br />
 <br />
 
-4. （开放题）如何构建高性能web站点？
+4.  （开放题）如何构建高性能web站点？
 <br />
 <br />
 <br />
 <br />
 
 5.  （开放题）如何增强网站安全性？
+<br />
+<br />
+<br />
+<br />
 
 6. （开放题）`MySQL` 的索引有哪些，从不同角度说出一些 `MySQL` 优化方法？
+<br />
+<br />
+<br />
+<br />
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NjA2NTc5LC05MzM5NzUxMV19
+eyJoaXN0b3J5IjpbLTI2MjEyNTcyNywtOTMzOTc1MTFdfQ==
 -->
