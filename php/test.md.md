@@ -26,26 +26,35 @@ B．`**_1234`
 C．`_*1234`
 D．`_*123`
 
-5. （简答题）`Redis` 能存储哪些结构的数据？
+4. （简答题）`Redis` 能存储哪些结构的数据？
+<br />
+<br />
+<br />
+<br />
 
 
+5. （简答题）设计模式了解哪些？
+<br />
+<br />
+<br />
+<br />
 
 
+6. （简答题）讲解一下 `Cookies\Session\Cache` 应用场景及其区别？
+<br />
+<br />
+<br />
+<br />
 
-
-6. （简答题）设计模式了解哪些？
-
-
-
-
-7. （简答题）讲解一下 `Cookies\Session\Cache` 应用场景及其区别？
-
-
-8. （开放题）如何构建高性能web站点？
+7. （开放题）如何构建高性能web站点？
+<br />
+<br />
+<br />
+<br />
 
 9. （开放题）如何增强网站安全性？
 
 10. （开放题）`MySQL` 的索引有哪些，从不同角度说出一些 `MySQL` 优化方法？
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzUxNjQzNzFdfQ==
+eyJoaXN0b3J5IjpbLTkzMzk3NTExXX0=
 -->
