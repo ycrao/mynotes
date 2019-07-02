@@ -1,5 +1,7 @@
 <center><h1>米赢文化PHP面试题</h1></center>
 
+> 开放题可留白在面试中详述展开。
+
 1. （简答题）`Redis` 能存储哪些结构的数据，说出您所熟知结构的应用场景？
 <br />
 <br />
@@ -18,7 +20,7 @@
 <br />
 <br />
 
-4.  （开放题）如何看待 `php是最好的语言` ？
+4. （简答题）`MySQL` 的索引有哪些，从不同角度说出一些 `MySQL` 优化方法？
 <br />
 <br />
 <br />
@@ -30,12 +32,13 @@
 <br />
 <br />
 
-6. （开放题）`MySQL` 的索引有哪些，从不同角度说出一些 `MySQL` 优化方法？
-<br />
-<br />
-<br />
-<br />
+6. （开放题）
+
+
+
+
+7. （kai
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTM2NzkxMCwtMTYzMDgwOTk2LC05Mz
-M5NzUxMV19
+eyJoaXN0b3J5IjpbLTE3NTQ5NjI3OTcsMTY2NTM2NzkxMCwtMT
+YzMDgwOTk2LC05MzM5NzUxMV19
 -->
