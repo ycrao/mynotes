@@ -6,7 +6,7 @@
 <br />
 <br />
 
-2. （简答题）什么是单例模式主要解决什么问题？
+2. （简答题）说一下单例与工厂模式的使用场景，它们主要解决什么问题？
 <br />
 <br />
 <br />
@@ -36,5 +36,5 @@
 <br />
 <br />
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODQ5OTc0MSwtOTMzOTc1MTFdfQ==
+eyJoaXN0b3J5IjpbLTc5OTc5MTgyNywtOTMzOTc1MTFdfQ==
 -->
