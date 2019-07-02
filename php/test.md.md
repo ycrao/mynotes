@@ -1,6 +1,6 @@
 <center><h1>米赢文化PHP面试题</h1></center>
 
-> 开放题可留白在面试中详述展开。
+> 开放题可列出大纲或留白在面试中详述展开。
 
 1. （简答题）`Redis` 能存储哪些结构的数据，说出您所熟知结构的应用场景？
 <br />
@@ -15,6 +15,12 @@
 <br />
 
 3. （简答题）讲解一下 `Cookies\Session\Cache` 应用场景及其区别？
+<br />
+<br />
+<br />
+<br />
+
+
 <br />
 <br />
 <br />
@@ -38,10 +44,7 @@
 <br />
 <br />
 
-
-
-7. （开放题）列出您想问我司的问题？
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM0NjQ0ODEsMTY2NTM2NzkxMCwtMT
-YzMDgwOTk2LC05MzM5NzUxMV19
+eyJoaXN0b3J5IjpbLTIxMjA0MzEwNTksLTExOTM0NjQ0ODEsMT
+Y2NTM2NzkxMCwtMTYzMDgwOTk2LC05MzM5NzUxMV19
 -->
