@@ -38,13 +38,14 @@
 <br />
 <br />
 
-6. （开放题）
+6. （开放题）评价一下自己，未来的职业规划？
 <br />
 <br />
 <br />
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA0MzEwNTksLTExOTM0NjQ0ODEsMT
-Y2NTM2NzkxMCwtMTYzMDgwOTk2LC05MzM5NzUxMV19
+eyJoaXN0b3J5IjpbMTQ5NDQ3Nzc1NCwtMjEyMDQzMTA1OSwtMT
+E5MzQ2NDQ4MSwxNjY1MzY3OTEwLC0xNjMwODA5OTYsLTkzMzk3
+NTExXX0=
 -->
