@@ -45,8 +45,8 @@ Vue.js 学习示例及笔记：[Learning Vue](https://github.com/ycrao/learning_
 
 ### JAVA 相关：
 
-学习 Java 示例及笔记：[Learning Java](https://github.com/ycrao/learning_java)
-Simple restful API service Demo： [simple-api-service](https://github.com/douyasi/simple-api-service)
+- 学习 Java 示例及笔记：[Learning Java](https://github.com/ycrao/learning_java)
+- Simple restful API service Demo： [simple-api-service](https://github.com/douyasi/simple-api-service)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1MDU2NTQ3XX0=
+eyJoaXN0b3J5IjpbMTgzNjMyMzkwNyw1NjUwNTY1NDddfQ==
 -->
