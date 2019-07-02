@@ -18,7 +18,7 @@
 <br />
 <br />
 
-4.  （开放题）？
+4.  （开放题）如何看待 `php是最好的语言` ？
 <br />
 <br />
 <br />
@@ -36,5 +36,6 @@
 <br />
 <br />
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA4MDk5NiwtOTMzOTc1MTFdfQ==
+eyJoaXN0b3J5IjpbMTY2NTM2NzkxMCwtMTYzMDgwOTk2LC05Mz
+M5NzUxMV19
 -->
