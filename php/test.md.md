@@ -18,7 +18,7 @@
 <br />
 <br />
 
-4.  （开放题）如何构建高性能web站点？
+4.  （开放题）如何平衡？
 <br />
 <br />
 <br />
@@ -36,5 +36,5 @@
 <br />
 <br />
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTc5MTgyNywtOTMzOTc1MTFdfQ==
+eyJoaXN0b3J5IjpbLTE5OTgxMTkxNDEsLTkzMzk3NTExXX0=
 -->
