@@ -18,7 +18,7 @@
 <br />
 <br />
 
-4.  （开放题）如何平衡？
+4.  （开放题）如何平衡你所理解的平和的？
 <br />
 <br />
 <br />
@@ -36,5 +36,5 @@
 <br />
 <br />
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgxMTkxNDEsLTkzMzk3NTExXX0=
+eyJoaXN0b3J5IjpbLTQ5NzE4MjYwMSwtOTMzOTc1MTFdfQ==
 -->
