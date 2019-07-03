@@ -32,31 +32,24 @@
 <br />
 <br />
 
-5.  （开放题）从下列问题中选择其中一个你所熟知的来回答。
+5.  （开放题）从下列问题中选择其中一两个您所熟知的问题来回答。
 A.  如何增强网站安全性？
 B.  您接触过哪些语言或其框架，比较它们的异同，从它们的思想或代码中您能学习到啥？
-C.  说说实现拼手气红包的实现思路及其注意点。
-D.  <写上自己想回答的问题>___________________________________________
+C.  说说QQ/微信拼手气红包的实现思路及其注意点。
+D.  简单自评一下，说说您的优势与劣势，未来的规划，如何提高自身能力。
 <br />
 <br />
 <br />
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
-
-6. （开放题）简单自评一下，说说您的优势与劣势，未来的规划，如何提高自身能力。
-
 <br />
 <br />
 <br />
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDc0NTk1MywtMTEzOTcxOTEsLTE5OD
+eyJoaXN0b3J5IjpbMjAwMzI2MTA2NiwtMTEzOTcxOTEsLTE5OD
 EzNTkyNCw4MDY3NzIzODcsMjEyNjk1MjMzNywtMTk0MTAxMDkx
 NCwxNDgzNjcxMTU3LC00Mjg3MDQzODMsMTQ5NDQ3Nzc1NCwtMj
 EyMDQzMTA1OSwtMTE5MzQ2NDQ4MSwxNjY1MzY3OTEwLC0xNjMw
