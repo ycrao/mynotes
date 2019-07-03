@@ -33,7 +33,7 @@
 5.  （开放题）从下列问题中选择其中一个你所熟知的来回答。
 A.  如何增强网站安全性？
 B.  您接触过哪些语言或其框架，比较它们的异同，从它们的思想或代码中您能学习到啥？
-C.  证明 根号7 是无理数。
+C.  说说实现pingshouqi
 D.  
 <br />
 <br />
@@ -54,9 +54,9 @@ D.
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0NDA1MTE0LC0xOTgxMzU5MjQsODA2Nz
-cyMzg3LDIxMjY5NTIzMzcsLTE5NDEwMTA5MTQsMTQ4MzY3MTE1
-NywtNDI4NzA0MzgzLDE0OTQ0Nzc3NTQsLTIxMjA0MzEwNTksLT
-ExOTM0NjQ0ODEsMTY2NTM2NzkxMCwtMTYzMDgwOTk2LC05MzM5
-NzUxMV19
+eyJoaXN0b3J5IjpbLTE4MjEzODUxMzYsLTE5ODEzNTkyNCw4MD
+Y3NzIzODcsMjEyNjk1MjMzNywtMTk0MTAxMDkxNCwxNDgzNjcx
+MTU3LC00Mjg3MDQzODMsMTQ5NDQ3Nzc1NCwtMjEyMDQzMTA1OS
+wtMTE5MzQ2NDQ4MSwxNjY1MzY3OTEwLC0xNjMwODA5OTYsLTkz
+Mzk3NTExXX0=
 -->
