@@ -32,14 +32,15 @@
 
 
 
-5. 如何增强网站安全性？
+5.  （开放题）从下列问题中选择其中一个来回答。
+如何增强网站安全性？
 <br />
 <br />
 <br />
 <br />
 
 
-6. 评价一下自己，您的优势与劣势，未来的规划，如何ziquxing。
+7. （开放题）简单自评一下，说说您的优势与劣势，未来的规划，如何提高自身能力。
 
 <br />
 <br />
@@ -47,8 +48,8 @@
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1NjA2NjgyLDgwNjc3MjM4NywyMTI2OT
-UyMzM3LC0xOTQxMDEwOTE0LDE0ODM2NzExNTcsLTQyODcwNDM4
-MywxNDk0NDc3NzU0LC0yMTIwNDMxMDU5LC0xMTkzNDY0NDgxLD
-E2NjUzNjc5MTAsLTE2MzA4MDk5NiwtOTMzOTc1MTFdfQ==
+eyJoaXN0b3J5IjpbMTUwMDQ0NDA0NSw4MDY3NzIzODcsMjEyNj
+k1MjMzNywtMTk0MTAxMDkxNCwxNDgzNjcxMTU3LC00Mjg3MDQz
+ODMsMTQ5NDQ3Nzc1NCwtMjEyMDQzMTA1OSwtMTE5MzQ2NDQ4MS
+wxNjY1MzY3OTEwLC0xNjMwODA5OTYsLTkzMzk3NTExXX0=
 -->
