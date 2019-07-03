@@ -14,13 +14,11 @@
 <br />
 <br />
 
-3. （简答题）讲解一下 `Cookies\Session\Cache` 应用场景及其区别？
+3. （简答题）讲解一下 `Cookie\Session\Token\Cache` 应用场景及其区别？
 <br />
 <br />
 <br />
 <br />
-
-
 <br />
 <br />
 <br />
@@ -32,21 +30,18 @@
 <br />
 <br />
 
-5.  （开放题）如何增强网站安全性？
-<br />
-<br />
-<br />
-<br />
 
-6. （选答题）从下面几个问题中选择一个回答。
-评价一下自己，未来的职业规划？
+
+5. （选答题）从下面几个问题中选择其中一个回答。
+A. 如何增强网站安全性？
+B. 
 <br />
 <br />
 <br />
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODcwNDM4MywxNDk0NDc3NzU0LC0yMT
-IwNDMxMDU5LC0xMTkzNDY0NDgxLDE2NjUzNjc5MTAsLTE2MzA4
-MDk5NiwtOTMzOTc1MTFdfQ==
+eyJoaXN0b3J5IjpbMTQ4MzY3MTE1NywtNDI4NzA0MzgzLDE0OT
+Q0Nzc3NTQsLTIxMjA0MzEwNTksLTExOTM0NjQ0ODEsMTY2NTM2
+NzkxMCwtMTYzMDgwOTk2LC05MzM5NzUxMV19
 -->
