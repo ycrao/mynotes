@@ -2,7 +2,7 @@
 
 > 开放题可列出大纲或留白在面试中详述展开。
 
-1. （简答题）`Redis` 能存储哪些结构的数据，说出您所熟知结构的应用场景？
+1. （简答题）`Redis` 能存储哪些结构的数据，说出您所熟知数据结构的应用场景？
 <br />
 <br />
 <br />
@@ -38,14 +38,15 @@
 <br />
 <br />
 
-6. （开放题）评价一下自己，未来的职业规划？
+6. （选答题）从下面几个问题中选择一个回答。
+评价一下自己，未来的职业规划？
 <br />
 <br />
 <br />
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDQ3Nzc1NCwtMjEyMDQzMTA1OSwtMT
-E5MzQ2NDQ4MSwxNjY1MzY3OTEwLC0xNjMwODA5OTYsLTkzMzk3
-NTExXX0=
+eyJoaXN0b3J5IjpbLTQyODcwNDM4MywxNDk0NDc3NzU0LC0yMT
+IwNDMxMDU5LC0xMTkzNDY0NDgxLDE2NjUzNjc5MTAsLTE2MzA4
+MDk5NiwtOTMzOTc1MTFdfQ==
 -->
