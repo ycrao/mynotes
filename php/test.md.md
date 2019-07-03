@@ -1,5 +1,7 @@
 <center><h1>米赢文化PHP面试题</h1></center>
 
+														面试人：_______________
+
 > 开放题可列出大纲或留白在面试中详述展开。
 
 1. （简答题）`Redis` 能存储哪些结构的数据，说出您所熟知数据结构的应用场景？
@@ -34,7 +36,7 @@
 A.  如何增强网站安全性？
 B.  您接触过哪些语言或其框架，比较它们的异同，从它们的思想或代码中您能学习到啥？
 C.  说说实现拼手气红包的实现思路及其注意点。
-D.  <写上自己想回答的问题>——
+D.  <写上自己想回答的问题>___________________________________________
 <br />
 <br />
 <br />
@@ -54,7 +56,7 @@ D.  <写上自己想回答的问题>——
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDk0NDc4MCwtMTEzOTcxOTEsLTE5OD
+eyJoaXN0b3J5IjpbMTg2NDc0NTk1MywtMTEzOTcxOTEsLTE5OD
 EzNTkyNCw4MDY3NzIzODcsMjEyNjk1MjMzNywtMTk0MTAxMDkx
 NCwxNDgzNjcxMTU3LC00Mjg3MDQzODMsMTQ5NDQ3Nzc1NCwtMj
 EyMDQzMTA1OSwtMTE5MzQ2NDQ4MSwxNjY1MzY3OTEwLC0xNjMw
