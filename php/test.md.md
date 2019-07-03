@@ -30,17 +30,15 @@
 <br />
 <br />
 
-
-
 5.  （开放题）从下列问题中选择其中一个你所熟知的来回答。
-A. 如何增强网站安全性？
-B. 您接触过哪些框架，比较它们的异同，从它们的代码中您能学习到啥？
-C. `Swoole
+A.  如何增强网站安全性？
+B.  您接触过哪些框架，比较它们的异同，从它们的代码中您能学习到啥？
+C.  如何看待框架与语言之争？
 <br />
 <br />
 <br />
 <br />
-
+<br />
 
 6. （开放题）简单自评一下，说说您的优势与劣势，未来的规划，如何提高自身能力。
 
@@ -50,8 +48,8 @@ C. `Swoole
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDczOTc2NSw4MDY3NzIzODcsMjEyNj
-k1MjMzNywtMTk0MTAxMDkxNCwxNDgzNjcxMTU3LC00Mjg3MDQz
-ODMsMTQ5NDQ3Nzc1NCwtMjEyMDQzMTA1OSwtMTE5MzQ2NDQ4MS
-wxNjY1MzY3OTEwLC0xNjMwODA5OTYsLTkzMzk3NTExXX0=
+eyJoaXN0b3J5IjpbLTE2MzA5OTAyMzQsODA2NzcyMzg3LDIxMj
+Y5NTIzMzcsLTE5NDEwMTA5MTQsMTQ4MzY3MTE1NywtNDI4NzA0
+MzgzLDE0OTQ0Nzc3NTQsLTIxMjA0MzEwNTksLTExOTM0NjQ0OD
+EsMTY2NTM2NzkxMCwtMTYzMDgwOTk2LC05MzM5NzUxMV19
 -->
