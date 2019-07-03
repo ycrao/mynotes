@@ -35,15 +35,15 @@
 5. （选答题）从下面几个问题中选择其中一个回答。
 A. 如何增强网站安全性？
 B. 使用伪代码实现拼手气红包，比如 1元 10人随机分？
-C. 使用过哪些框架？比较一下它们差异，您能从中获取哪些
+C. 进程、线程的区别
 <br />
 <br />
 <br />
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjk1MjMzNywtMTk0MTAxMDkxNCwxND
-gzNjcxMTU3LC00Mjg3MDQzODMsMTQ5NDQ3Nzc1NCwtMjEyMDQz
-MTA1OSwtMTE5MzQ2NDQ4MSwxNjY1MzY3OTEwLC0xNjMwODA5OT
-YsLTkzMzk3NTExXX0=
+eyJoaXN0b3J5IjpbOTkyNzAyOTUwLDIxMjY5NTIzMzcsLTE5ND
+EwMTA5MTQsMTQ4MzY3MTE1NywtNDI4NzA0MzgzLDE0OTQ0Nzc3
+NTQsLTIxMjA0MzEwNTksLTExOTM0NjQ0ODEsMTY2NTM2NzkxMC
+wtMTYzMDgwOTk2LC05MzM5NzUxMV19
 -->
