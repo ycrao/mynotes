@@ -34,15 +34,16 @@
 
 5. （选答题）从下面几个问题中选择其中一个回答。
 A. 如何增强网站安全性？
-B. 使用伪代码实现拼手气红包，比如 1元 ？
+B. 使用伪代码实现拼手气红包，比如 1元 10人随机分？
+C. 
 <br />
 <br />
 <br />
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDAzNzY5LDE0ODM2NzExNTcsLTQyOD
-cwNDM4MywxNDk0NDc3NzU0LC0yMTIwNDMxMDU5LC0xMTkzNDY0
-NDgxLDE2NjUzNjc5MTAsLTE2MzA4MDk5NiwtOTMzOTc1MTFdfQ
-==
+eyJoaXN0b3J5IjpbLTE5NDEwMTA5MTQsMTQ4MzY3MTE1NywtND
+I4NzA0MzgzLDE0OTQ0Nzc3NTQsLTIxMjA0MzEwNTksLTExOTM0
+NjQ0ODEsMTY2NTM2NzkxMCwtMTYzMDgwOTk2LC05MzM5NzUxMV
+19
 -->
