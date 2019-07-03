@@ -32,19 +32,23 @@
 
 
 
-5. （选答题）从下面几个问题中选择其中一个回答。
-A. 如何增强网站安全性？
-B. 
-C. 评价一下自己，您的优势与劣势，未来的规划。
-D. 
+5. 如何增强网站安全性？
+<br />
+<br />
+<br />
+<br />
+
+
+6. 评价一下自己，您的优势与劣势，未来的规划，如何ziquxing。
+
 <br />
 <br />
 <br />
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2NzcyMzg3LDIxMjY5NTIzMzcsLTE5ND
-EwMTA5MTQsMTQ4MzY3MTE1NywtNDI4NzA0MzgzLDE0OTQ0Nzc3
-NTQsLTIxMjA0MzEwNTksLTExOTM0NjQ0ODEsMTY2NTM2NzkxMC
-wtMTYzMDgwOTk2LC05MzM5NzUxMV19
+eyJoaXN0b3J5IjpbMjQ1NjA2NjgyLDgwNjc3MjM4NywyMTI2OT
+UyMzM3LC0xOTQxMDEwOTE0LDE0ODM2NzExNTcsLTQyODcwNDM4
+MywxNDk0NDc3NzU0LC0yMTIwNDMxMDU5LC0xMTkzNDY0NDgxLD
+E2NjUzNjc5MTAsLTE2MzA4MDk5NiwtOTMzOTc1MTFdfQ==
 -->
