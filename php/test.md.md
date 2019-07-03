@@ -34,16 +34,16 @@
 
 5. （选答题）从下面几个问题中选择其中一个回答。
 A. 如何增强网站安全性？
-B. 使用伪代码实现拼手气红包，比如 1元 10人随机分？
-C. 进程、线程的区别
+B. 进程、线程的区别
+C. 评价一下自己，您的优势与劣势，未来的规划。
 <br />
 <br />
 <br />
 <br />
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNzAyOTUwLDIxMjY5NTIzMzcsLTE5ND
-EwMTA5MTQsMTQ4MzY3MTE1NywtNDI4NzA0MzgzLDE0OTQ0Nzc3
-NTQsLTIxMjA0MzEwNTksLTExOTM0NjQ0ODEsMTY2NTM2NzkxMC
-wtMTYzMDgwOTk2LC05MzM5NzUxMV19
+eyJoaXN0b3J5IjpbLTk5NTgxOTc5OSwyMTI2OTUyMzM3LC0xOT
+QxMDEwOTE0LDE0ODM2NzExNTcsLTQyODcwNDM4MywxNDk0NDc3
+NzU0LC0yMTIwNDMxMDU5LC0xMTkzNDY0NDgxLDE2NjUzNjc5MT
+AsLTE2MzA4MDk5NiwtOTMzOTc1MTFdfQ==
 -->
