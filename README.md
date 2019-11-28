@@ -9,6 +9,11 @@
 - [PHP面试题汇总](php/interview.md) [#1](https://github.com/ycrao/mynotes/issues/1)
 - [PHP面试题汇总二](php/interview_2.md) [#4](https://github.com/ycrao/mynotes/issues/4)
 
+### 代码片段：
+
+- [实现QQ/微信拼手气红包算法](php/randomLuckyRedPacket.php)：这里仅考虑红包分配自身，不考虑并发、超时退回等逻辑。
+- 来自 [30 seconds of knowledge](https://github.com/30-seconds/30_seconds_of_knowledge/tree/master/src/assets/snippets/php) 相关 [PHP代码片段](php/30_seconds_of_knowledge_php.md) 。
+
 ### Laravel 入门教程：
 
 本人去年自己写的 `Laravel` 系列教程，使用的4版，内容可能有些过时或错漏。博客连载地址为：http://douyasi.com/category/startlaravel/
