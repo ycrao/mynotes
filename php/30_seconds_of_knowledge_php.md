@@ -7,6 +7,7 @@
 
 <details>
   <summary>`average` - 求平均数</summary>
+
 ```php
 function average(...$items) {
     $count = count($items);
@@ -18,6 +19,7 @@ average(1, 2, 3); // 2
 
 <details>
   <summary>`deepFlatten` - 混维数组平展成一维数组</summary>
+
 ```php
 function deepFlatten($items) {
     $result = [];
@@ -36,6 +38,7 @@ deepFlatten([1, [2], [[3], 4], 5]); // [1, 2, 3, 4, 5]
 
 <details>
   <summary>`endsWith` - 是否以某个特定词结尾</summary>
+
 ```php
 function endsWith($haystack, $needle) {
     return strrpos($haystack, $needle) === (strlen($haystack) - strlen($needle));
@@ -46,6 +49,7 @@ endsWith('Hi, this is me', 'me'); // true
 
 <details>
   <summary>`factorial` - 阶乘计算</summary>
+
 ```php
 function factorial($n) {
     if ($n <= 1) {
@@ -59,6 +63,7 @@ factorial(6); // 720
 
 <details>
   <summary>`fibonacci` - 斐波那契数列</summary>
+
 ```php
 function fibonacci($n) {
     $sequence = [0, 1];
@@ -73,6 +78,7 @@ fibonacci(6); // [0, 1, 1, 2, 3, 5]
 
 <details>
   <summary>`gcd` - 最大公约数计算</summary>
+
 ```php
 function gcd(...$numbers) {
     if (count($numbers) > 2) {
@@ -88,6 +94,7 @@ gcd(12, 8, 32); // 4
 
 <details>
   <summary>`head` - 取得首元素</summary>
+
 ```php
 function head($items) {
     return reset($items);
@@ -98,6 +105,7 @@ head([1, 2, 3]); // 1
 
 <details>
   <summary>`isPrime` - 质数判定</summary>
+
 ```php
 function isPrime($number) {
     $boundary = floor(sqrt($number));
@@ -114,6 +122,7 @@ isPrime(3); // true
 
 <details>
   <summary>`last` - 取得尾元素</summary>
+
 ```php
 function last($items) {
     return end($items);
@@ -124,6 +133,7 @@ last([1, 2, 3]); // 3
 
 <details>
   <summary>`lcm` - 最小公倍数计算</summary>
+
 ```php
 function lcm(...$numbers) {
     $ans = $numbers[0];
@@ -139,6 +149,7 @@ lcm(1, 3, 4, 5); // 60
 
 <details>
   <summary>`palindrome` - 回文判断</summary>
+
 ```php
 function palindrome($string) {
     return strrev($string) === (string) $string;
@@ -150,6 +161,7 @@ palindrome(2221222); // true
 
 <details>
   <summary>`startsWith` - 是否以某个特定词开始</summary>
+
 ```php
 function startsWith($haystack, $needle) {
     return strpos($haystack, $needle) === 0;
