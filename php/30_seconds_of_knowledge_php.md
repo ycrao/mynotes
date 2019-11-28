@@ -1,4 +1,4 @@
-# 来自 `30 seconds of knowledge` 相关PHP代码片段
+# 来自 30 seconds of knowledge 相关PHP代码片段
 
 ### 部分片段展示
 
