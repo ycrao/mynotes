@@ -12,7 +12,7 @@
 ### 代码片段：
 
 - [实现QQ/微信拼手气红包算法](php/randomLuckyRedPacket.php)：这里仅考虑红包分配自身，不考虑并发、超时退回等逻辑。
-- 来自 [30 seconds of knowledge](https://github.com/30-seconds/30_seconds_of_knowledge/tree/master/src/assets/snippets/php) 相关 [PHP代码片段](php/30_seconds_of_knowledge_php.md) 。
+- 来自 [30 seconds of knowledge](https://github.com/30-seconds/30_seconds_of_knowledge/tree/master/src/assets/snippets/php) 相关 [PHP代码片段](php/30_seconds_of_knowledge_php.md) [#5](https://github.com/ycrao/mynotes/issues/5) 。
 
 ### Laravel 入门教程：
 
