@@ -27,6 +27,9 @@ function randBonus($totalBonus, $bonusSize) {
             $randCent = $min;
             if (($remainBonus > $restSize*$min) && $max > $min ) {
                 $randCent = mt_rand($min, $max);   // 随机金额范围
+                while ($randCent == $remainBonus) {
+                    $randCent = mt_rand($min, $max);
+                }
             }
             $divisions[] = $randCent;
             $remainBonus -= $randCent;
