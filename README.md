@@ -16,7 +16,7 @@
 
 ### Laravel 入门教程：
 
-本人去年自己写的 `Laravel` 系列教程，使用的4版，内容可能有些过时或错漏。博客连载地址为：http://douyasi.com/category/startlaravel/
+本人 `2017` 年写的 `Laravel` 系列教程，使用的4版，内容可能有些过时或错漏。博客连载地址为：http://douyasi.com/category/startlaravel/
 
 目录
 
@@ -52,7 +52,28 @@ Vue.js 学习示例及笔记：[Learning Vue](https://github.com/ycrao/learning_
 
 - 学习 Java 示例及笔记：[Learning Java](https://github.com/ycrao/learning_java)
 - Simple restful API service Demo： [simple-api-service](https://github.com/douyasi/simple-api-service)
+- Spring 集成大全： [spring-tutorials](https://github.com/ycrao/spring-tutorials)
 
-### RabbitMQ 相关
+### RabbitMQ 相关：
 
-RabbitMQ 多运行模式简介：[rabbitmq-examples](https://github.com/ycrao/rabbitmq-examples)
+- RabbitMQ 多运行模式简介：[rabbitmq-examples](https://github.com/ycrao/rabbitmq-examples)
+- PHP 运行时下 RabbitMQ 消费端常驻解决办法：[rabbitmq-consumer](https://github.com/ycrao/rabbitmq-consumer)
+
+### Golang 相关：
+
+- 学习 `golang` 过程中，编写的一些代码及软件：[learning_golang](https://github.com/ycrao/learning_golang)
+
+### Docker 相关：
+
+- 基于 `alpine` 底包原始构建[基础运行时镜像](https://github.com/ycrao/base-runtime-images)，镜像文件较小，且生产可用，目前主要是 `php-fpm` 运行时相关的镜像，后期会编写一些其它语言与服务的镜像。
+
+### 大前端相关：
+
+- 最新的 `Vue3` 架手架模版：[ycrao/topop-vue](https://github.com/ycrao/topop-vue) 。
+- 前端 `Excel` 导出解决方案：[ycrao/frontend-excel-export](https://github.com/ycrao/frontend-excel-export)
+- 云端研学代码：[stackblitz.com/@ycrao](https://stackblitz.com/@ycrao/collections/learning-typescript)
+
+### 杂项：
+
+- 和谐：[ycrao/harmony](https://github.com/ycrao/harmony)
+- 如意：[ycrao/ruyi](https://github.com/ycrao/ruyi)
