@@ -1,4 +1,4 @@
-<!-- Used by [MarkdocViewer](https://github.com/ycrao/markdoc-viewer), view online [link](https://raoyc.com/markdoc-viewer?doc=README.md&dir=&index=index.md&repo=ycrao/mynotes&home=README.md&branch=master) . -->
+<!-- Used by [MarkdocViewer](https://github.com/ycrao/markdoc-viewer), view online [link](https://raoyc.com/markdoc-viewer?doc=intro.md&dir=&index=index.md&repo=ycrao/mynotes&home=intro.md&branch=master) . -->
 
 面试题系列
 * [PHP面试题汇总](php/interview.md)
@@ -23,7 +23,7 @@ MySQL相关
 * [MySQL基础命令](mysql/basic.md)
 
 Bash相关
-* [Bash中文指南](https://github.com/ycrao/bash-guide)
+* [🔗Bash中文指南](https://github.com/ycrao/bash-guide)
 
 更多
-* [读我](https://github.com/ycrao/mynotes/)
+* [🔗读我](https://github.com/ycrao/mynotes/)
