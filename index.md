@@ -7,7 +7,6 @@
 * [30秒知识代码片段](php/30_seconds_of_knowledge_php.md)
 
 Laravel入门教程
->   本人 `2017` 年写的 `Laravel` 系列教程，使用的4版，内容可能有些过时或错漏。
 * 1. [准备性工作](laravel_cms/01.md)
 * 2. [建立数据库](laravel_cms/02.md)
 * 3. [页面显示与路由控制（一）](laravel_cms/03.md)
