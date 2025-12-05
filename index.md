@@ -1,3 +1,5 @@
+<!-- Used by [MarkdocViewer](https://github.com/ycrao/markdoc-viewer), view online [link](https://raoyc.com/markdoc-viewer?doc=README.md&dir=&index=index.md&repo=ycrao/mynotes&home=README.md&branch=master) . -->
+
 面试题系列
 * [PHP面试题汇总](php/interview.md)
 * [PHP面试题汇总二](php/interview_2.md)
@@ -23,5 +25,5 @@ MySQL相关
 Bash相关
 * [Bash中文指南](https://github.com/ycrao/bash-guide)
 
-其它
-* [读我](readme.md)
+更多
+* [读我](https://github.com/ycrao/mynotes/)
