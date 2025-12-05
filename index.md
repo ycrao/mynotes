@@ -3,7 +3,7 @@
 * [PHP面试题汇总二](php/interview_2.md)
 
 代码片段
-* [拼手气红包](php/randomLuckyRedPacket.php)
+* [拼手气红包](php/randomLuckyRedPacket.md)
 * [30秒知识代码片段](php/30_seconds_of_knowledge_php.md)
 
 Laravel入门教程
