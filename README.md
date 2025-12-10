@@ -66,6 +66,7 @@ Vue.js 学习示例及笔记：[Learning Vue](https://github.com/ycrao/learning_
 ### Docker 相关：
 
 - 基于 `alpine` 底包原始构建[基础运行时镜像](https://github.com/ycrao/base-runtime-images)，镜像文件较小，且生产可用，目前主要是 `php-fpm` 运行时相关的镜像，后期会编写一些其它语言与服务的镜像。
+- [`Dockerfile` 最佳实践指导](docker/best-practices-zh.md)，这是一篇提炼之后的译文。
 
 ### 大前端相关：
 
